@@ -4,7 +4,7 @@
     "slug": "tarea6",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/photo.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.daury_rosario.tarea6"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/photo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f0163e5a-6704-4f71-91f0-826a99326aca"
+      }
     }
   }
 }
